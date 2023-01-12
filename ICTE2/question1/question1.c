@@ -19,7 +19,7 @@ void main(){
     }
 
     // Print out array elements in reverse order one by one
-    printf("The elements of array in reverse order are :");
+    printf("The elements of array in reverse order are : ");
     for(int i=array_len;i>0;i--){
         printf("element - %d : %d ",i,array1[i-1]);
     }
