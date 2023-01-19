@@ -1,0 +1,42 @@
+// Comments in this file start with double forward slash
+Script started on Thu Jan 19 19:12:51 2023
+// 1. Command to print a command
+# echo "Hello 2023 and the new quarter!"
+Hello 2023 and the new quarter!
+// 2. Command to print current date and time
+# date
+Thu Jan 19 19:13:07 UTC 2023
+// 3. Command to print home directory
+# echo $HOME
+/root
+// 4. Change directory to home directory
+# cd ~
+// 5. Command to list all files in the current directory
+# ls
+// 6. Command to create a new folder in the current directory
+# mkdir temp
+// 7. To rename a folder to a new name, we use the move command which moves the same folder in the same directory with a different name
+# mv temp temp_new
+// 8. Change directory to the newly created folder
+# cd temp_new
+// 9. Create a text file with a name
+# touch file5
+// 10. Rename the created text file to a new name
+# mv file5 test
+// 11. Go up a directory from current directory
+# cd ..
+// 12. Delete the folder temp_new
+# rm -r temp_new
+// 13. Create a file named secretfile with a string of text inside
+# echo "It's a secret!" > secretfile
+// 14. Change file permissions of the created file to read-only
+# chmod 555 secretfile
+// 14. List all the file names with their permissions info. 
+# ls -l
+total 4
+-r-xr-xr-x 1 root root 15 Jan 19 19:15 secretfile
+// 15. Try adding text into secretfile but this fails since it is a read-only file.
+# cat >> secretfile
+# exit
+
+Script done on Thu Jan 19 19:16:26 2023
