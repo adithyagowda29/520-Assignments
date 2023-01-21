@@ -1,12 +1,12 @@
+Script started on Sat Jan 21 07:13:56 2023
 // Comments in this file start with double forward slash
-Script started on Thu Jan 19 19:12:51 2023
 // 1. Command to print a command
 # echo "Hello 2023 and the new quarter!"
 Hello 2023 and the new quarter!
 // 2. Command to print current date and time
 # date
-Thu Jan 19 19:13:07 UTC 2023
-// 3. Command to print home directory
+Sat Jan 21 07:14:24 UTC 2023
+// 3. Command to print full path to home directory
 # echo $HOME
 /root
 // 4. Change directory to home directory
@@ -31,12 +31,18 @@ Thu Jan 19 19:13:07 UTC 2023
 # echo "It's a secret!" > secretfile
 // 14. Change file permissions of the created file to read-only
 # chmod 555 secretfile
-// 14. List all the file names with their permissions info. 
+// 14. List all the file names with their permissions info.
 # ls -l
 total 4
--r-xr-xr-x 1 root root 15 Jan 19 19:15 secretfile
-// 15. Try adding text into secretfile but this fails since it is a read-only file.
+-r-xr-xr-x 1 root root 15 Jan 21 07:15 secretfile
+// 15. Adding extra text into secretfile.
 # cat >> secretfile
+Adding more text
+^C
+// 15. Print and check inside secretfile.
+# cat secretfile
+It's a secret!
+Adding more text
 # exit
 
-Script done on Thu Jan 19 19:16:26 2023
+Script done on Sat Jan 21 07:15:36 2023
