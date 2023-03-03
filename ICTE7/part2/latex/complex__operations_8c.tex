@@ -1,0 +1,108 @@
+\hypertarget{complex__operations_8c}{}\doxysection{complex\+\_\+operations.\+c File Reference}
+\label{complex__operations_8c}\index{complex\_operations.c@{complex\_operations.c}}
+
+
+This file contains functions for operations on complex numbers.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_complex}{Complex}}
+\begin{DoxyCompactList}\small\item\em Structure to define complex numbers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_complex}{Complex}} \mbox{\hyperlink{complex__operations_8c_ae1548f768600e1c70cb9282114149556}{add}} (\mbox{\hyperlink{struct_complex}{Complex}} a, \mbox{\hyperlink{struct_complex}{Complex}} b)
+\begin{DoxyCompactList}\small\item\em Function to add two complex numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_complex}{Complex}} \mbox{\hyperlink{complex__operations_8c_abc1f0507b60f867d401c8a978a48fb82}{negate}} (\mbox{\hyperlink{struct_complex}{Complex}} a)
+\begin{DoxyCompactList}\small\item\em Function to negate a complex number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_complex}{Complex}} \mbox{\hyperlink{complex__operations_8c_ad9d9f96938ddbd9415f467cfcb34c5da}{multiply}} (\mbox{\hyperlink{struct_complex}{Complex}} a, \mbox{\hyperlink{struct_complex}{Complex}} b)
+\begin{DoxyCompactList}\small\item\em Function to multiply two complex numbers. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{complex__operations_8c_aa3f43376ef10670923290c2a194a99f3}{magnitude}} (\mbox{\hyperlink{struct_complex}{Complex}} a)
+\begin{DoxyCompactList}\small\item\em Function to calculate the magnitude of a complex number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains functions for operations on complex numbers. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{complex__operations_8c_ae1548f768600e1c70cb9282114149556}\label{complex__operations_8c_ae1548f768600e1c70cb9282114149556}} 
+\index{complex\_operations.c@{complex\_operations.c}!add@{add}}
+\index{add@{add}!complex\_operations.c@{complex\_operations.c}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_complex}{Complex}} add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{a,  }\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{b }\end{DoxyParamCaption})}
+
+
+
+Function to add two complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First complex number \\
+\hline
+{\em b} & Second complex number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of the two complex numbers 
+\end{DoxyReturn}
+\mbox{\Hypertarget{complex__operations_8c_aa3f43376ef10670923290c2a194a99f3}\label{complex__operations_8c_aa3f43376ef10670923290c2a194a99f3}} 
+\index{complex\_operations.c@{complex\_operations.c}!magnitude@{magnitude}}
+\index{magnitude@{magnitude}!complex\_operations.c@{complex\_operations.c}}
+\doxysubsubsection{\texorpdfstring{magnitude()}{magnitude()}}
+{\footnotesize\ttfamily double magnitude (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{a }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the magnitude of a complex number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The complex number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The magnitude of the complex number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{complex__operations_8c_ad9d9f96938ddbd9415f467cfcb34c5da}\label{complex__operations_8c_ad9d9f96938ddbd9415f467cfcb34c5da}} 
+\index{complex\_operations.c@{complex\_operations.c}!multiply@{multiply}}
+\index{multiply@{multiply}!complex\_operations.c@{complex\_operations.c}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_complex}{Complex}} multiply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{a,  }\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{b }\end{DoxyParamCaption})}
+
+
+
+Function to multiply two complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First complex number \\
+\hline
+{\em b} & Second complex number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of the two complex numbers 
+\end{DoxyReturn}
+\mbox{\Hypertarget{complex__operations_8c_abc1f0507b60f867d401c8a978a48fb82}\label{complex__operations_8c_abc1f0507b60f867d401c8a978a48fb82}} 
+\index{complex\_operations.c@{complex\_operations.c}!negate@{negate}}
+\index{negate@{negate}!complex\_operations.c@{complex\_operations.c}}
+\doxysubsubsection{\texorpdfstring{negate()}{negate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_complex}{Complex}} negate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_complex}{Complex}}}]{a }\end{DoxyParamCaption})}
+
+
+
+Function to negate a complex number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The complex number to be negated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The negated complex number 
+\end{DoxyReturn}
