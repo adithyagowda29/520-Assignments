@@ -18,8 +18,8 @@ The Leader and Follower robots are placed in the arena. The Leader go around in 
 Below image is the snapshot at the beginning of the simulation. Red robot is the Leader robot and the blue ones are the Follower robots <br> <br>
 ![Beginning of the project](./assets/Simulation_Environment_Setup.png) <br> <br>
 
-Below video is the end result of the project where Follower Robots are following the Leader as a chain one after another.<br> <br>
-![Project end result](./assets/Project_Video_Capture.mp4)
+Below video uploaded on Youtube is the end result of the project where Follower Robots are following the Leader as a chain one after another. The video is also available as mp4 file in assets folder.<br> 
+https://youtu.be/ZzzT8vMZ7tw <br>
 
 I have tuned the weight and speed of all the Robots to give best possible physics of a real time scene.
 
