@@ -1,0 +1,15 @@
+{
+    "name": "Follower",
+    "type": "dynamic",
+    "description": "A Follower Robot",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+      "collision": 2,
+      "linear": 10,
+      "rotational": 200
+    },
+    "sensors": [],
+    "mass": 2,    
+    "controller": "lib/Follower.so"
+}
