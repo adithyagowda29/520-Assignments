@@ -1,7 +1,7 @@
   ```
   Adithya Gowda Baragur
-  gowdabars@uw.edu
- https://github.com/adithyagowda29/520-Assignments/Leader_Follower
+  gowdabar@uw.edu
+  https://github.com/adithyagowda29/520-Assignments/Leader_Follower
   ```
 
 # Leader-Follower Robots Simulation in Enviro Environment
@@ -16,10 +16,10 @@ The goal is to create a Leader robot and multiple Follower robots which are tryi
 
 The Leader and Follower robots are placed in the arena. The Leader go around in a long rectangular loop in the arena. The followers one after another tries to follow the Leader robot each of them at a certain distance.
 Below image is the snapshot at the beginning of the simulation. Red robot is the Leader robot and the blue ones are the Follower robots <br> <br>
-![Beginning of the project](./images/Picture11.PNG) <br> <br>
+![Beginning of the project](./assets/Simulation_Environment_Setup.png) <br> <br>
 
-Below video is the end goal of the game where Follower Robots are following the Leader as a chain one after another.<br> <br>
-![Project end result](https://www.youtube.com/watch?v=ZzzT8vMZ7tw)
+Below video is the end result of the project where Follower Robots are following the Leader as a chain one after another.<br> <br>
+![Project end result](./assets/Project_Video_Capture.mp4)
 
 I have tuned the weight and speed of all the Robots to give best possible physics of a real time scene.
 
